@@ -1,0 +1,38 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  setxkbmap lv
+    4  setxkbmap ru
+    5  setxkbmap lv
+    6  exit
+    7  ls -l
+    8  git clone https://github.com/tatusmatrix/EDIBO
+    9  ls -lt
+   10  cd EDIBO/
+   11  ls -lt
+   12  ls -lta
+   13  ls -lt
+   14  ls -lta
+   15  pwd
+   16  cd .
+   17  pwd
+   18  cd ..
+   19  ls -lt
+   20  ls
+   21  cd EDIBO/
+   22  ls
+   23  ls -lta
+   24  tree
+   25  ls -l
+   26  cat README.md 
+   27  hexdump -C README.md 
+   28  cat README.md 
+   29  hexdump -C README.md 
+   30  cat README.md 
+   31  man hexdump
+   32  cat README.md 
+   33  hexdump -C README.md 
+   34  cat README.md 
+   35  nano README.md 
+   36  ls -lta
+   37  history 
+   38  history > history_20200807a.txt

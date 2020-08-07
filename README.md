@@ -5,8 +5,7 @@ EDIBO projekta elektroniskā klade
 - Terminal (hot-keys)
 - Shell (basics)
 - Git (basics)
+- ASCII table
 
-#### Tests
-Teksts1
-Teksts2  
-Teksts3
+#### ASCII table
+[ASCII table](http://www.ecowin.org/ascii.htm)
