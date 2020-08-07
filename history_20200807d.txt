@@ -1,0 +1,73 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  git clone https://github.com/tatusmatrix/EDIBO
+    4  ls -lt
+    5  ls -l
+    6  ls -lt
+    7  ls -l
+    8  ls -lt
+    9  ls -tl
+   10  cd EDIBO/
+   11  pwd
+   12  ls -lt
+   13  pwd
+   14  ls -lt
+   15  nano mans_pirmais_skripts.sh
+   16  ls -l
+   17  chmod 744 mans_pirmais_skripts.sh 
+   18  ls -l
+   19  ls -la
+   20  ./mans_pirmais_skripts.sh 
+   21  ls -lt
+   22  cd ABC/
+   23  ls -lt
+   24  ls -l
+   25  cd ..
+   26  cd DEF/
+   27  ls -l
+   28  cd ..
+   29  ls -lt
+   30  ./mans_pirmais_skripts.sh 
+   31  mans_pirmais_skripts.sh 
+   32  ./mans_pirmais_skripts.sh 
+   33  ls
+   34  echo $PATH
+   35  pwd
+   36  mans_pirmais_skripts.sh 
+   37  pwd
+   38  PATH=PATH
+   39  echo $PATH
+   40  ls
+   41  PATH=/usr/local/anaconda3/bin:/opt/intelFPGA_lite/17.1/quartus/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/user/.dotnet/tools
+   42  echo $PATH
+   43  PATH=$PATH
+   44  echo $PATH
+   45  PATH=$PATH:./
+   46  echo $PATH
+   47  ls
+   48  PATH=$PATH:~
+   49  echo $PATH
+   50  PATH=$PATH:~/EDIBO
+   51  echo $PATH
+   52  ls -l
+   53  rm -rf ABC/
+   54  rm -rf DEF/
+   55  ls -l
+   56  echo $PATH
+   57  cd ..
+   58  echo $PATH
+   59  mans_pirmais_skripts.sh 
+   60  ls -l
+   61  echo $PATH
+   62  pwd
+   63  cd ..
+   64  pwd
+   65  echo $PATH
+   66  ls -l /bin
+   67  echo $PATH
+   68  ls /home/user/EDIBO/
+   69  cd
+   70  cd EDIBO/
+   71  pwd
+   72  history 
+   73  history > history_20200807d.txt
