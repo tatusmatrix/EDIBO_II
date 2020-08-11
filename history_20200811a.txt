@@ -1,0 +1,117 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  cd SHELL/
+    4  pwd
+    5  wd
+    6  pwd
+    7  ls -l
+    8  pwd
+    9  cd
+   10  pwd
+   11  cd EDIBO/
+   12  cd SHELL/
+   13  cd..
+   14  cd ..
+   15  pwd
+   16  ls -l
+   17  cd SHELL/
+   18  ls -l
+   19  pwd
+   20  ls
+   21  pwd
+   22  nano test.sh
+   23  ls
+   24  ls -lt
+   25  chmod 744 test.sh 
+   26  ls -lt
+   27  test.sh
+   28  ./test.sh 
+   29  ls -lt
+   30  ./test.sh 
+   31  m1="a"
+   32  m2="b"
+   33  echo $m1
+   34  echo $m2
+   35  echo $m1, $m2
+   36  echo $m1 $m2
+   37  echo $m1
+   38  unset m1
+   39  echo $m1
+   40  echo $m3
+   41  m1="a"
+   42  echo $?
+   43  unset m1
+   44  echo $?
+   45  echo $m1
+   46  echo $?
+   47  echo $m3
+   48  echo $?
+   49  test.sh
+   50  echo $?
+   51  echo $m1
+   52  m1="a"
+   53  echo $m1
+   54  readonly m1
+   55  m1="bbbb"
+   56  cp test.sh 
+   57  cp test1.sh 
+   58  wheris cp
+   59  whereis cp
+   60  cat /bin/cp
+   61  cat /bin/cp | grep "$#"
+   62  cat /bin/cp | grep $#
+   63  cp test1.sh 
+   64  ls -lt
+   65  cp test1.sh 
+   66  cp test1.sh test2.h
+   67  ls -lt
+   68  cp test100000.sh 
+   69  echo $0
+   70  whereis bash
+   71  echo $?
+   72  cp test.sh 
+   73  echo $?
+   74  cp test10000.sh  test10.sh
+   75  echo $?
+   76  test.sh
+   77  echo $?
+   78  $$
+   79  ps -aux
+   80* 
+   81  $$
+   82  ps -aux | grep 3638
+   83  ps -aux | grep bash
+   84  nano test.sh 
+   85  ./test.sh 
+   86  nano test.sh 
+   87  ./test.sh 
+   88  $$
+   89  ps -aux
+   90  $!
+   91  ./test.sh 
+   92  $!
+   93  ./test.sh &
+   94  $!
+   95  ps -aux | grep 4485
+   96  $!
+   97  ./test.sh &
+   98  $!
+   99  sh
+  100  echo $0
+  101  ./test.dh
+  102  ./test.sh
+  103  echo $0
+  104  ./test.sh
+  105  sh
+  106  ls -l
+  107  nano test.sh 
+  108  ./test.sh 
+  109  nano test.sh 
+  110  ./test.sh 
+  111  nano test.sh 
+  112  ./test.sh 
+  113  nano test.sh 
+  114  ./test.sh 
+  115  history 
+  116  cd ..
+  117  history > history_20200811a.txt
