@@ -1,0 +1,46 @@
+Programmēšanas "paņēmieni" vai svairīgākās konstrukcijas:
+1.a. mainīgie - tiek lietoti identifikatori
+(a, b, ab, a_b - drīkst), ("a b" - nedrīkst)
+1.b. konstantes -"-
+2. operācijas: =, +, -, *, /, %, ...
+(parasti operācija notiek ar diviem operandiem)
+3.a. nosacījuma operators - if (var būt ar else, var būt elif, ...)
+koda izpildes sazarošanai
+3.b. cikla operators - for, while, do ... while
+koda daļas izpildīšanas atkārtošanai
+(ekvivalents - daudzas manuāli blakus sarakstītas līdzīgas rindas)
+4. funkcija - ar argumentiem/bez argumentiem un ar atgriežamiem lielumiem/bez atgriežamiem lielumiem
+
+Izmēģināsim dažus no šiem paņēmieniem SHELL'ā:
+izmantosim piemērus no tutorialpoint.com
+
+1. darbs ar mainīgājiem - Unix / Linux - Using Shell Variables
+https://www.tutorialspoint.com/unix/unix-using-variables.htm
+
+2. darbs ar speciāliem mainīgājiem - Unix / Linux - Special Variables
+https://www.tutorialspoint.com/unix/unix-special-variables.htm
+
+3. darbs ar mainīgo masīvu - Unix / Linux - Using Shell Arrays
+https://www.tutorialspoint.com/unix/unix-using-arrays.htm
+
+4. darbs ar operācijām - Unix / Linux - Shell Basic Operators
+https://www.tutorialspoint.com/unix/unix-basic-operators.htm
+
+5. darbs ar nosacījumu operatoru - Unix / Linux - Shell Decision Making
+https://www.tutorialspoint.com/unix/unix-decision-making.htm
+
+6. darbs ar cikliem - Unix / Linux - Shell Loop Types
+https://www.tutorialspoint.com/unix/unix-shell-loops.htm
+https://www.tutorialspoint.com/unix/unix-loop-control.htm
+
+-------------------------------------------------------------------------
+Uzrakstīt skriptu, kurš lietotāja ievadīto skaitli pārveido no dec to bin
+-------------------------------------------------------------------------
+
+7.-. darbs ar atlikušajām sadaļām no tutorialspoint.com:
+Unix / Linux - Shell Substitution
+Unix / Linux - Shell Quoting Mechanisms
+Unix / Linux - Shell Input/Output Redirections
+Unix / Linux - Shell Functions
+Unix / Linux - Shell Manpage Help
+*
