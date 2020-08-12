@@ -1,0 +1,48 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  cd
+    4  pwd
+    5  cd
+    6  git clone https://github.com/tatusmatrix/FibonacciNumbers
+    7  pwd
+    8  ls
+    9  pwd
+   10  python
+   11  ipython
+   12  python
+   13  ipython
+   14  nano first_python_script.py
+   15  ls -lt
+   16  python first_python_script.py 
+   17  nano first_python_script.py
+   18  python first_python_script.py 
+   19  nano first_python_script.py
+   20  python first_python_script.py 
+   21  nano first_python_script.py
+   22  python first_python_script.py 
+   23  nano first_python_script.py
+   24  python first_python_script.py 
+   25  cp first_python_script.py second_python_script_like_executable.py 
+   26  ls -lt
+   27  whereis python
+   28  nano second_python_script_like_executable.py 
+   29  whereis python
+   30  nano second_python_script_like_executable.py 
+   31  ls -lt
+   32  chmod 744 second_python_script_like_executable.py 
+   33  ls -lt
+   34  ./second_python_script_like_executable.py 
+   35  ls -lt
+   36  nano second_python_script_like_executable.py 
+   37  ./second_python_script_like_executable.py 
+   38  python first_python_script.py 
+   39  ./second_python_script_like_executable.py 
+   40  python second_python_script_like_executable.py 
+   41  ./second_python_script_like_executable.py 
+   42  python second_python_script_like_executable.py 
+   43  idle &
+   44  ls -lt
+   45  cd ..
+   46  pwd
+   47  history 
+   48  history > history_20200812a.txt

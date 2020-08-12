@@ -1,0 +1,77 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  git clone https://github.com/tatusmatrix/EDIBO
+    4  cd EDIBO/SHELL/
+    5  pwd
+    6  ls -lta
+    7  ls -lt
+    8  pwd
+    9  ls -lt
+   10  cat Day04.txt 
+   11  ls -lt
+   12  ./test.sh 896
+   13  nano dec2bin.txt
+   14  ls -lt
+   15  nano dec2bin.sh
+   16  chmod 744 dec2bin.sh 
+   17  ./dec2bin.sh 
+   18  nano dec2bin.sh
+   19  ./dec2bin.sh 
+   20  nano dec2bin.sh
+   21  ./dec2bin.sh 
+   22  cat dec2bin.sh 
+   23* a=0;
+   24  echo $a
+   25  a=$(($a/2))
+   26  echo $a
+   27  a=10
+   28  echo $a
+   29  a=$(($a/2))
+   30  echo $a
+   31  ./dec2bin.sh 
+   32  ./dec2bin.sh 10
+   33  ./dec2bin.sh 39
+   34  nano dec2bin.sh
+   35  ./dec2bin.sh 39
+   36  nano dec2bin.sh
+   37  ./dec2bin.sh 39
+   38  nano dec2bin.sh
+   39  ./dec2bin.sh 39
+   40  nano dec2bin.sh
+   41  ./dec2bin.sh 39
+   42  nano dec2bin.sh
+   43  ./dec2bin.sh 39
+   44  nano dec2bin.sh
+   45  ./dec2bin.sh 39
+   46  nano dec2bin.sh
+   47  ./dec2bin.sh 39
+   48  nano dec2bin.sh
+   49  tree
+   50  ls -lt
+   51  cd ..
+   52  tree
+   53  cd SHELL/
+   54  nano dec2bin.sh
+   55  cat Day04.txt 
+   56  nano dec2bin.sh
+   57  ./dec2bin.sh 39
+   58  nano dec2bin.sh
+   59  ./dec2bin.sh 39
+   60  ./dec2bin.sh 100
+   61  nano dec2bin.sh
+   62  ./dec2bin.sh 100
+   63  cat dec2bin.txt 
+   64  ./dec2bin.sh 100
+   65  cat dec2bin.txt 
+   66  nano dec2bin.sh
+   67  cat dec2bin.txt 
+   68  cd ..
+   69  ls -lt
+   70  mkdir Python
+   71  cd Python/
+   72  pwd
+   73  nano README.md
+   74  cd ..
+   75  pwd
+   76  history 
+   77  history > history_20200812b.txt
