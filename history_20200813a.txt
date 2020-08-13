@@ -1,0 +1,60 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  git clone https://github.com/tatusmatrix/EDIBO
+    4  cd EDIBO/Python/
+    5  pwd
+    6  idle &
+    7  nano milziigs_skaitlis.py
+    8  ls -lt
+    9  cat milziigs_skaitlis.py 
+   10  chmod 744 milziigs_skaitlis.py 
+   11  la -lt
+   12  ./milziigs_skaitlis.py 
+   13  ls -lt
+   14  nano milziigs_skaitlis.py
+   15  ./milziigs_skaitlis.py 
+   16  nano milziigs_skaitlis.py
+   17  cat milziigs_skaitlis.py 
+   18  ./milziigs_skaitlis.py 
+   19  nano milziigs_skaitlis.py
+   20  ./milziigs_skaitlis.py 
+   21  nano milziigs_skaitlis.py
+   22  ./milziigs_skaitlis.py 
+   23  nano milziigs_skaitlis.py
+   24  ./milziigs_skaitlis.py 
+   25  nano milziigs_skaitlis.py
+   26  ./milziigs_skaitlis.py 
+   27  nano milziigs_skaitlis.py
+   28  ./milziigs_skaitlis.py 
+   29  nano milziigs_skaitlis.py
+   30  ./milziigs_skaitlis.py 
+   31  cat milziigs_skaitlis.py 
+   32  ./milziigs_skaitlis.py 
+   33  nano milziigs_skaitlis.py
+   34  ./milziigs_skaitlis.py 
+   35  nano milziigs_skaitlis.py
+   36  ./milziigs_skaitlis.py 
+   37  nano milziigs_skaitlis.py
+   38  ./milziigs_skaitlis.py 
+   39  nano milziigs_skaitlis.py
+   40  ./milziigs_skaitlis.py 
+   41  nano milziigs_skaitlis.py
+   42  ./milziigs_skaitlis.py 
+   43  nano milziigs_skaitlis.py
+   44  ./milziigs_skaitlis.py 
+   45  nano milziigs_skaitlis.py
+   46  ./milziigs_skaitlis.py 
+   47  nano milziigs_skaitlis.py
+   48  ./milziigs_skaitlis.py 
+   49  nano milziigs_skaitlis.py
+   50  ./milziigs_skaitlis.py 
+   51  nano milziigs_skaitlis.py
+   52  ./milziigs_skaitlis.py 
+   53  nano milziigs_skaitlis.py
+   54  ls -lt
+   55  idle &
+   56  nano
+   57  cd ..
+   58  pwd
+   59  history 
+   60  history > history_20200813a.txt
