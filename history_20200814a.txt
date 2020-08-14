@@ -1,0 +1,38 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  git clone https://github.com/tatusmatrix/EDIBO
+    4  cd EDIBO/Python/
+    5  pwd
+    6  ls -lt
+    7  pwd
+    8  idle &
+    9  pwd
+   10  ls -lt
+   11  cd ..
+   12  pwd
+   13  history 
+   14  nano git-upload 
+   15  ./git-upload 
+   16  pwd
+   17  ls -lt
+   18  pwd
+   19  ls -lt
+   20  mkdir HTML_CSS_JavaScript
+   21  ls -lt
+   22  cd HTML_CSS_JavaScript/
+   23  pwd
+   24  nano index.html
+   25  nano index1.html
+   26  ls -lt
+   27  nano index.html
+   28  code .
+   29  pwd
+   30  code .
+   31  pwd
+   32  code .
+   33  ls -lt
+   34  cd ..
+   35  ls -lt
+   36* history  > history_20200814a.txt
+   37  ls -lt
+   38  history > history_20200814a.txt
