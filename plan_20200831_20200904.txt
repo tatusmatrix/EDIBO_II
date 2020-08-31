@@ -8,15 +8,39 @@ Kolonnai ir nosaukums un datu tips
 * Komentāra rinda (--), komentāra bloks (/* */)
 1.0. DB struktūras izzināšana
 1.0.1. aktīvs DB lietotājs - SELECT CURRENT_USER();
-1.0.2. aktīva DB - SELECT DATABASE();
-1.0.3. visas DB - SHOW DATABASES;
-1.0.4. DB izvēle - USE DBNAME; (var pārbaudīt ar komandu no 1.0.2.)
-1.0.5. DB veidošana - CREATE DATABASE DBNAME;
-1.0.6. DB dzēšana - DROP DATABASE DBNAME;
-1.0.7. visas tabulas - SHOW TABLES;
-1.0.8. 
+1.0.2. lietotāja tiesību noskaidrošana - SHOW GRANTS FOR 'user'@'localhost';
+1.0.3. aktīva DB - SELECT DATABASE();
+1.0.4. visas DB - SHOW DATABASES;
+1.0.5. DB izvēle - USE DBNAME; (var pārbaudīt ar komandu no 1.0.3.)
+* DB tiek izvēlēta līdz atslēgšanas brīdim vai citas DB USE sākumam
+1.0.6. DB veidošana - CREATE DATABASE DBNAME;
+1.0.7. DB dzēšana - DROP DATABASE DBNAME;
+1.0.8. visas tabulas - SHOW TABLES;
+1.0.9. tabulas struktūras apraksts - DESCRIBE TABLE_NAME; (SHOW COLUMNS FROM TABLE_NAME;)
+1.0.10. tabulas detalizēts apraksts un statistika - SHOW TABLE STATUS FROM DBNAME;
+1.0.11. tabulas ierakstu izgūšana - SELECT * FROM TABLE_NAME;
+1.0.12. tabulas ierakstu izgūšana ar filtru - SELECT * FROM TABLE_NAME WHERE COLUMN_NAME=VALUE;
+* filtrs var būt daudz līmeņu
+1.0.13. tabulas veidošana - CREATE TABLE TABLE_NAME (COLUMN_NAME DATATYPE ...);
+... - var būt vēl vairākas īpašības:
+   NULL/NOT NULL
+   DEFAULT
+   PRIMARY KEY
+   AUTO_INCREMENT
+   FOREIGN KEY
+* CURRENT_TIMESTAMP()
+1.0.14. tabulas struktūras modificēšana - ALTER TABLE TABLE_NAME ADD COLUMN_NAME DATATYPE ...;
+* modificēšana - pielikt lauku, izmainīt lauka īpašības, dzēst lauku
+** ALTER TABLE TABLE_NAME MODIFY COLUMN_NAME DATATYPE ...;
+*** ALTER TABLE TABLE_NAME DROP COLUMN_NAME;
+1.0.15. ierakstu pievienošana - INSERT INTO TABLE_NAME (COLUMN_NAME) VALUES (VALUE);
+1.0.16. ierakstu rediģēšana - UPDATE TABLE_NAME SET SOLUMN_NAME=VALUE WHERE COLUMN_NAME=VALUE;
+
+
+
 1.1. SQl online simulator
 https://paiza.io
+https://www.w3schools.com/sql/
 
 1.2. SQL local DB (?)
 1.2.1. Do we have local mysql tool
@@ -31,7 +55,7 @@ mysql -u user -p
 mysql -h 127.0.0.1 -u user -p
 
 1.3. SQL AWS (Amazon Web Services)
-
+* https://www.researchgate.net/post/Is_there_any_free_SQL_database_server_online
 2. .NET webapp ar konektoru uz DB
 3. .NET webapp ar Angular (visādas grafiskās formas)
 4. -"- ar konektoru uz DB
