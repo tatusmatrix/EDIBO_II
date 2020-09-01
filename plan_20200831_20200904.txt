@@ -25,7 +25,7 @@ Kolonnai ir nosaukums un datu tips
 ... - var būt vēl vairākas īpašības:
    NULL/NOT NULL
    DEFAULT
-   PRIMARY KEY
+   PRIMARY KEY (ja tabulai tas ir, tad pirms pievienošanas sākumā ir jāpilda DROP PRIMARY KEY)
    AUTO_INCREMENT
    FOREIGN KEY
 * CURRENT_TIMESTAMP()
@@ -34,8 +34,8 @@ Kolonnai ir nosaukums un datu tips
 ** ALTER TABLE TABLE_NAME MODIFY COLUMN_NAME DATATYPE ...;
 *** ALTER TABLE TABLE_NAME DROP COLUMN_NAME;
 1.0.15. ierakstu pievienošana - INSERT INTO TABLE_NAME (COLUMN_NAME) VALUES (VALUE);
-1.0.16. ierakstu rediģēšana - UPDATE TABLE_NAME SET SOLUMN_NAME=VALUE WHERE COLUMN_NAME=VALUE;
-
+1.0.16. ierakstu rediģēšana - UPDATE TABLE_NAME SET COLUMN_NAME=VALUE WHERE COLUMN_NAME=VALUE;
+1.0.17. ierakstu dzēšana - DELETE FROM TABLE_NAME WHERE COLUMN_NAME=VALUE;
 
 
 1.1. SQl online simulator
