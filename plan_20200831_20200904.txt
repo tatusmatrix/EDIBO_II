@@ -52,6 +52,8 @@ END;$$
 DELIMITER ;
 * SHOW TRIGGERS LIKE '%TRIGGER_NAME%' \G;
 ** https://www.w3resource.com/mysql/mysql-triggers.php
+1.0.20. funkcijas veidošana
+
 
 1.1. SQl online simulator
 https://paiza.io
@@ -71,6 +73,12 @@ mysql -h 127.0.0.1 -u user -p
 
 1.3. SQL AWS (Amazon Web Services)
 * https://www.researchgate.net/post/Is_there_any_free_SQL_database_server_online
+
+1.4. Darbs ar MySQL Workbench
+1.4.0. shell:>mysql-workbench
+1.4.1. DB struktūras izgūšana (Database -> Reverse Engineer)
+
+
 2. .NET webapp ar konektoru uz DB
 3. .NET webapp ar Angular (visādas grafiskās formas)
 4. -"- ar konektoru uz DB
