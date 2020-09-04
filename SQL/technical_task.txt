@@ -3,19 +3,50 @@
 1. Personas datu tabula - vārds, uzvārds, personas kods, fk uz dzīves vietu
 (fk uz pilsētu; fk uz ielu; fk uz mājas numurs - vai bez fk vienkārši INT lauks, bet
 tad klāt vēl lauciņš numura burtam; fk dzīvokļa numurs - -"-)
+Id(PK)  Name Surname     PersoneCode       fkCity  fkStreet   fkHome  fkFlat
+1        Aa    Bb        010195-10789        1        2          2       1
+2        Cc    Dd        311200-20101        3        4          1       2
+
+-- HomeNr(INT) NomeNrSymbol(VARCHAR)
+--    1                  a
+-     1                NULL
 
 2. Pilsētas - nosaukums, fk reģionu
+Id  Title      fgRegion
+1    Rīga         1
+2    Liepāja      2
+3    Viļaka       5
 
 3. Ielas - nosaukums
+Id   Title
+1    Brīvības iela
+2    Liepu aleja
+3    Ganību dambis
+4    Jūrmalas gatve
 
 4. Mājas numuri - numurs varchar paskatā (piemērs - 3a, 4b)
+1 1
+2 1a
 
 5. Dzīvokļu numuri - numurs varchar paskatā (-"-)
+Id    Nr
+1     1a
+2     1b
 
 6. Reģioni - nosaukums
+Id   Title
+1     Rīga
+2     Kurzeme
+3     Vidzeme
+4     Zemgale
+5     Latgale
 -------------------------------------------------------------------------------------
 Funkcija1(IN Id no Personu datu tabulas) RETURNS personas dzimšanas datums
+     respektīvi, piemēram, kā no VARCHAR vērtības '010195-10789' iegūt (dzimšanas) datumu?
+
 Funkcija2(IN Id no Personu datu tabulas) RETURNS personas vecums uz šo brīdi
+     respektīvi, kā noteikt laika starpību starp diviem datumiem?
+
 Funkcija3(IN Id no Personu datu tabulas, IN datums) RETURNS personas vecums uz konkretu datumu
 ------------------------------------------------------------------------------------
 Procedūra1(IN Id no Pilsētas, IN Id no Ielām) - kas tur dzīvo un cik vecs ir šodien
