@@ -1,0 +1,18 @@
+Uzdevuma analīze:
+
+
+
+
+
+
+1. Pirmās tiks izvidotas tabulas bez relācijām (parasti tie ir tā saucāmie
+klasifikatori - c_Streets, c_Homes, c_Flats, c_Regions)
+USE db23;
+CREATE TABLE ... 
+
+
+2. Tad tiks izveidotas tabulas - klasifikatori vai datu tabulas ar 1. kārtas
+relācijām (c_Cities)
+
+3. Tad tiks izveidotas tabulas - klasifikatori vai datu tabulas ar 2. kārtas
+relācijām (d_Persons vai t_Persons)

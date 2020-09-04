@@ -1,0 +1,21 @@
+0. Treniņš ar DATETIME datu tipu
+
+1. Personas datu tabula - vārds, uzvārds, personas kods, fk uz dzīves vietu
+(fk uz pilsētu; fk uz ielu; fk uz mājas numurs - vai bez fk vienkārši INT lauks, bet
+tad klāt vēl lauciņš numura burtam; fk dzīvokļa numurs - -"-)
+
+2. Pilsētas - nosaukums, fk reģionu
+
+3. Ielas - nosaukums
+
+4. Mājas numuri - numurs varchar paskatā (piemērs - 3a, 4b)
+
+5. Dzīvokļu numuri - numurs varchar paskatā (-"-)
+
+6. Reģioni - nosaukums
+-------------------------------------------------------------------------------------
+Funkcija1(IN Id no Personu datu tabulas) RETURNS personas dzimšanas datums
+Funkcija2(IN Id no Personu datu tabulas) RETURNS personas vecums uz šo brīdi
+Funkcija3(IN Id no Personu datu tabulas, IN datums) RETURNS personas vecums uz konkretu datumu
+------------------------------------------------------------------------------------
+Procedūra1(IN Id no Pilsētas, IN Id no Ielām) - kas tur dzīvo un cik vecs ir šodien
