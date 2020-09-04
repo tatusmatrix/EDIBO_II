@@ -1,5 +1,6 @@
 Uzdevuma analīze:
-
+darbs ar MySQl
+jāmāk izveidot tabulas ar PK (arī AUTO_INCREMENT), FK
 
 
 
