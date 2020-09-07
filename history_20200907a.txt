@@ -1,0 +1,74 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  cd EDIBO/
+    4  ls -lt
+    5  mkdir Angular
+    6  cd Angular/
+    7  export NVM_DIR="$HOME/.nvm" && ( git clone https://github.com/nvm-sh/nvm.git "$NVM_DIR" cd "$NVM_DIR" git checkout `git describe --abbrev=0 --tags --match "v[0-9]*" $(git rev-list --tags --max-count=1)` ) && \. "$NVM_DIR/nvm.sh"
+    8  export NVM_DIR="$HOME/.nvm" && ( git clone https://github.com/nvm-sh/nvm.git "$NVM_DIR" cd "$NVM_DIR" git checkout `git describe --abbrev=0 -
+    9  export NVM_DIR="$HOME/.nvm" && ( git clone https://github.com/nvm-sh/nvm.git "$NVM_DIR" cd "$NVM_DIR" git checkout `git describe --abbrev=0 --tags --match "v[0-9]*" $(git rev-list --tags --max-count=1)` ) && \. "$NVM_DIR/nvm.sh"
+   10  cd
+   11  export NVM_DIR="$HOME/.nvm" && ( git clone https://github.com/nvm-sh/nvm.git "$NVM_DIR" cd "$NVM_DIR" git checkout `git describe --abbrev=0 --tags --match "v[0-9]*" $(git rev-list --tags --max-count=1)` ) && \. "$NVM_DIR/nvm.sh"
+   12  history 
+   13  export NVM_DIR="$HOME/.nvm" && ( git clone https://github.com/nvm-sh/nvm.git "$NVM_DIR"; cd "$NVM_DIR"; git checkout `git describe --abbrev=0 --tags --match "v[0-9]*" $(git rev-list --tags --max-count=1)`; ) && \. "$NVM_DIR/nvm.sh"
+   14  nvm i 12
+   15  node -v  # Should be like 12.x.x
+   16  npm -v  # Should be like 6.x.x
+   17  export NVM_DIR="$HOME/.nvm"
+   18  [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
+   19  code .
+   20  cd EDIBO/Angular/
+   21  ng new MyApp
+   22  cd
+   23  ng new MyApp
+   24  code .
+   25  ng
+   26  npm install -g @angular/cli
+   27  ls -lta
+   28  ls -lt
+   29  ng new MyApp
+   30  ls -lt
+   31  cd MyApp/
+   32  ng serve
+   33  ls -t
+   34  ls -lt
+   35  cd ..
+   36  ls -lt
+   37  rm -rf MyApp/
+   38  ls -lta
+   39  cd
+   40  export NVM_DIR="$HOME/.nvm" && ( git clone https://github.com/nvm-sh/nvm.git "$NVM_DIR"; cd "$NVM_DIR"; git checkout `git describe --abbrev=0 --tags --match "v[0-9]*" $(git rev-list --tags --max-count=1)`; ) && \. "$NVM_DIR/nvm.sh"
+   41  nvm i 12
+   42  node -v  # Should be like 12.x.x
+   43  npm -v  # Should be like 6.x.x
+   44  export NVM_DIR="$HOME/.nvm"
+   45  [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
+   46  man npm
+   47  npm install -g @angular/cli
+   48  ls -lt
+   49  ls -lta
+   50  cd .nvm/
+   51  ls -lt
+   52  cat nvm.sh 
+   53  ls -lt
+   54  cd
+   55  ls -lt
+   56  cd EDIBO/Angular/
+   57  ng new MyApp1
+   58  ls -lt
+   59  cd MyApp1/
+   60  pwd
+   61  ls -lt
+   62  pwd
+   63  ls -lt
+   64  code .
+   65  ls -lt
+   66  ls -lt node_modules/ | grep material
+   67  ls -lt node_modules/
+   68  ls -lta
+   69  ls node_modules/
+   70  ls -lta
+   71  cat .gitignore 
+   72  cd ..
+   73  history 
+   74  history > history_20200907a.txt
