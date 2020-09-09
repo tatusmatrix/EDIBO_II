@@ -2,5 +2,5 @@
 
 git config --global user.email Tatjana.Solovjova@rtu.lv
 git add .
-git commit -m "20200907_18_40"
+git commit -m "20200909_17_10"
 git push origin master
