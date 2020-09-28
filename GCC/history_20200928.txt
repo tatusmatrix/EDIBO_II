@@ -1,0 +1,136 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  echo $PATH
+    4  nano a.sh
+    5  ls -lt
+    6  chmod 744 a.sh 
+    7  echo $PATH
+    8  a.sh
+    9  ./a.sh
+   10  a.sh
+   11  PATH=$PATH:~
+   12  echo $PATH
+   13  a.sh 
+   14  cd /
+   15  pwd
+   16  tree
+   17  cd
+   18  pwd
+   19  echo $PATH
+   20  echo $?
+   21  ls -l
+   22  echo $?
+   23  cp a.sh b.sh
+   24  ls -l
+   25  chmod 644 b.sh 
+   26  ls -lt
+   27  echo $?
+   28  b.sh
+   29  echo $?
+   30  rm -rf /
+   31  echo $?
+   32  ls -lt
+   33  ./Downloads/a.sh
+   34  echo $?
+   35  pwd
+   36  git clone https://github.com/tatusmatrix/EDIBO
+   37  ls -lt
+   38  cd EDIBO/
+   39  ls -lta
+   40  ls -la
+   41  cat README.md 
+   42  pwd
+   43  nano first.c
+   44  ls -lt
+   45  nano first.c
+   46  ls -lt
+   47  mkdir GCC
+   48  mv first.c GCC/
+   49  cd GCC/
+   50  pwd
+   51  ls -lt
+   52  gcc first.c 
+   53  echo $0
+   54  echo $?
+   55  ls -lt
+   56  ./a.out 
+   57  echo $?
+   58  cat first.c 
+   59  ls -lt
+   60  cat a.out 
+   61  ls -lt
+   62  cp first.c second.c
+   63  ls -lt
+   64  nano second.c 
+   65  lt -lt
+   66  ls -lt
+   67  gcc second.c 
+   68  ls -lt
+   69  gcc first.c -o first.out
+   70  ls -lt
+   71  gcc second.c -o second.out
+   72  ls -lt
+   73  cat first.
+   74  ls -lt
+   75  cat first.c 
+   76  cat second.c
+   77  cp first.c first_error_1.c
+   78  nano first_error_1.c
+   79  ls -lt
+   80  gcc first_error_1.c 
+   81  ls -lt
+   82  gcc first_error_1.c 
+   83  echo $?
+   84  gcc first.c -o first.out
+   85  echo $?
+   86  ls -lt
+   87  cp first_error_1.c first_error_2.c 
+   88  gcc first_error_2.c 
+   89  nano first_error_2.c 
+   90  gcc first_error_2.c 
+   91  echo $?
+   92  ls -lt
+   93  cp first_error_2.c first_error_3.c 
+   94  nano first_error_3.c 
+   95  gcc first_error_3.c 
+   96  ls -lt
+   97  cp first.c HelloWorld.c
+   98  nano HelloWorld.c 
+   99  ls -lt
+  100  gcc HelloWorld.c 
+  101  nano HelloWorld.c 
+  102  gcc HelloWorld.c 
+  103  nano HelloWorld.c 
+  104  gcc HelloWorld.c 
+  105  ls -lt
+  106  nano HelloWorld.c 
+  107  cat HelloWorld.c 
+  108  gcc HelloWorld.c 
+  109  nano HelloWorld.c 
+  110  gcc HelloWorld.c 
+  111  echo $/
+  112  ls -lt
+  113  ./a.out 
+  114  nano HelloWorld.c 
+  115  ./a.out 
+  116  gcc HelloWorld.c 
+  117  ./a.out 
+  118  echo $?
+  119  nano HelloWorld.c 
+  120  cat HelloWorld.c 
+  121  gcc HelloWorld.c 
+  122  nano HelloWorld.c 
+  123  gcc HelloWorld.c 
+  124  ./a.out 
+  125  ls -lt
+  126  ./a.out 
+  127  echo $?
+  128  nano HelloWorld.c 
+  129  gcc HelloWorld.c 
+  130  ls -lt
+  131  ./a.out 
+  132  echo $?
+  133  nano HelloWorld.c 
+  134  pwd
+  135  history 
+  136  history > history_20200928.txt
