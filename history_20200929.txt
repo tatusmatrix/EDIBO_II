@@ -1,0 +1,281 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  pwd
+    4  echo $?
+    5  ls -lt
+    6  echo $?
+    7  ls Downloads/
+    8  echo $?
+    9  ls Download/
+   10  echo $?
+   11  nano a.sh
+   12  ls -lt
+   13  ./a.sh
+   14  echo $?
+   15  ./b.sh
+   16  echo $?
+   17  history 
+   18  echo $?
+   19  ls
+   20  echo $?
+   21  ls Documents/
+   22  echo $?
+   23  ls Document/
+   24  echo $?
+   25  ls
+   26  echo $?
+   27  ./a.sh
+   28  echo $?
+   29  pwd
+   30  ls -l
+   31  git clone https://github.com/tatusmatrix/EDIBO
+   32  ls -lt
+   33  cd EDIBO/
+   34  ls -lt
+   35  ls -lta
+   36  cd .git
+   37  pwd
+   38  ls -lt
+   39* 
+   40  pwd
+   41  ls -lt
+   42  git clone https://github.com/tatusmatrix/EDIBO
+   43  mkdir EDIBO
+   44  echo $?
+   45  git clone https://github.com/tatusmatrix/EDIBO
+   46  echo $?
+   47  ls -lt
+   48  mv EDIBO/ EDIBO_old/
+   49  ls -lt
+   50  git clone https://github.com/tatusmatrix/EDIBO
+   51  ls -lt
+   52  git clone https://github.com/tatusmatrix/EDIBO EDIBO_new
+   53  ls -lt
+   54  rm -rf EDIBO
+   55  ls -lt
+   56  git clone https://github.com/tatusmatrix/EDIBO
+   57  cd EDIBO
+   58  ls -lt
+   59  cd ..
+   60  ls -lt
+   61  rm EDIBO 
+   62  rm -r EDIBO 
+   63  ls -lt
+   64  rm -rf ED*
+   65  ls -lt
+   66  sudo apt-get update
+   67* 
+   68  git clone https://github.com/tatusmatrix/EDIBO
+   69  cd EDIBO/
+   70  rm -rf GCC/
+   71  mkdir GCC
+   72  cd GCC/
+   73  nano code.sh
+   74  nano code.c
+   75  ls -lt
+   76  cat code.sh 
+   77  cat code.c
+   78  ls -lt
+   79  pwd
+   80  echo $PATH
+   81  ./code.sh
+   82  echo $?
+   83  chmod 744 code.sh
+   84  ls -lt
+   85  ./code.sh
+   86  echo $?
+   87  nano code.sh
+   88  chmod 744 code.sh
+   89  ./code.sh
+   90  cat code.sh 
+   91  whoami
+   92  ls -lt
+   93  cat code.c 
+   94  man gcc
+   95  pwd
+   96  ls -lt
+   97  gcc code.c
+   98  echo $?
+   99  ls -lt
+  100  cat code.c 
+  101  cat a.out 
+  102  ls -lt
+  103  ./a.out
+  104  echo $?
+  105  python
+  106  pwd
+  107  ls -lt
+  108  nano code.c 
+  109  nano code.c 
+  110  gcc code.c 
+  111  nano code.c 
+  112  gcc code.c 
+  113  nano code.c 
+  114  ls -lt
+  115  history 
+  116  ls -lt
+  117  nano code.c 
+  118  gcc code.c 
+  119  nano code.c 
+  120  ls -lt
+  121  gcc code.c 
+  122  echo $?
+  123  nano code.c 
+  124  gcc code.c 
+  125  echo $?
+  126  ls -lt
+  127  ./a.out 
+  128  time
+  129  date
+  130  ls -lt
+  131  nano code.c
+  132  ls -lt
+  133  uname -a
+  134  echo $0
+  135  nano code.c
+  136  ls -lt
+  137  rm a.out 
+  138  ls -lt
+  139  mv code.c code1.c
+  140  ls -lt
+  141  gcc code1.c 
+  142  echo $?
+  143  ls -lt
+  144  ./a.out 
+  145  cp code1.c code2.c
+  146  ls -lt
+  147  nano code2.c 
+  148  ls -lt
+  149  gcc code2.c 
+  150  echo $?
+  151  ls -lt
+  152  gcc code1.c -o code1.out
+  153  ls -lt
+  154  gcc code2.c -o code2.out
+  155  ls -lt
+  156  mv a.out aaa.out
+  157  ls -lt
+  158  mv aaa.out aaa.txt
+  159  ls -lt
+  160  ./aaa.txt 
+  161  ls -lt
+  162  cat code1.c
+  163  cat code2.c
+  164  pwd
+  165  nano code.sh
+  166  chmod 744 code.sh 
+  167  ./code.sh 
+  168  nano code1.c 
+  169  gcc code1.c 
+  170  ls -lt
+  171  ./a.out 
+  172  nano code2.c 
+  173  ls -lt
+  174  gcc code2.c
+  175  ls -lt
+  176  nano code2.c 
+  177  gcc code2.c -o code2.out 
+  178  ls -lt
+  179  cat code2.c 
+  180  ls -lt
+  181  ./a.out 
+  182  /home/user/EDIBO/GCC/a.out 
+  183  ~/EDIBO/GCC/a.out 
+  184  nano HelloWorld.c
+  185  gcc HelloWorld.c HelloWorld.out
+  186  gcc HelloWorld.c -o HelloWorld.out
+  187  nano HelloWorld.c
+  188  gcc HelloWorld.c -o HelloWorld.out
+  189  echo $?
+  190  ls -lt
+  191  nano HelloWorld.c
+  192  gcc HelloWorld.c -o HelloWorld.out
+  193  echo $?
+  194  ls -lt
+  195  ./HelloWorld.out 
+  196  nano HelloWorld.c
+  197  ./HelloWorld.out 
+  198  ls -lt
+  199  gcc HelloWorld.c -o HelloWorld.out
+  200  echo $?
+  201  ./HelloWorld.out 
+  202  nano HelloWorld.c
+  203  gcc HelloWorld.c -o HelloWorld.out
+  204  ./HelloWorld.out 
+  205  gcc HelloWorld.c -o HelloWorld.out
+  206  ./HelloWorld.out 
+  207  cat HelloWorld.c 
+  208  nano HelloWorld.c
+  209  gcc HelloWorld.c -o HelloWorld.out
+  210  ./HelloWorld.out 
+  211  nano HelloWorld.c
+  212  echo $?
+  213  gcc HelloWorld.c -o HelloWorld.out
+  214  ./HelloWorld.out 
+  215  nano HelloWorld.c
+  216  gcc HelloWorld.c -o HelloWorld.out
+  217  nano HelloWorld.c
+  218  gcc HelloWorld.c -o HelloWorld.out
+  219  ./HelloWorld.out 
+  220  echo $?
+  221  nano HelloWorld.c
+  222  gcc HelloWorld.c -o HelloWorld.out
+  223  ./HelloWorld.out 
+  224  echo $?
+  225  nano HelloWorld.c
+  226  gcc HelloWorld.c -o HelloWorld.out
+  227  ./HelloWorld.out 
+  228  echo $?
+  229  nano HelloWorld.c
+  230  gcc HelloWorld.c -o HelloWorld.out
+  231  ./HelloWorld.out 
+  232  echo $?
+  233  nano HelloWorld.c
+  234  gcc HelloWorld.c -o HelloWorld.out
+  235  ./HelloWorld.out 
+  236  echo $?
+  237  nano HelloWorld.c
+  238  gcc HelloWorld.c -o HelloWorld.out
+  239  ./HelloWorld.out 
+  240  nano HelloWorld.c
+  241  gcc HelloWorld.c -o HelloWorld.out
+  242  ./HelloWorld.out 
+  243  echo $?
+  244  nano HelloWorld.c
+  245  gcc HelloWorld.c -o HelloWorld.out
+  246  ./HelloWorld.out 
+  247  echo $?
+  248  nano HelloWorld.c
+  249  gcc HelloWorld.c -o HelloWorld.out
+  250  ./HelloWorld.out 
+  251  echo $?
+  252  nano HelloWorld.c
+  253  gcc HelloWorld.c -o HelloWorld.out
+  254  ls -lt
+  255  nano HelloWorld.c
+  256  gcc HelloWorld.c -o HelloWorld.out
+  257  ./HelloWorld.out 
+  258  echo $?
+  259  nano HelloWorld.c
+  260  gcc HelloWorld.c -o HelloWorld.out
+  261  ./HelloWorld.out 
+  262  echo $?
+  263  nano HelloWorld.c
+  264  gcc HelloWorld.c -o HelloWorld.out
+  265  ./HelloWorld.out 
+  266  echo $?
+  267  ls -lt
+  268  rm HelloWorld.out
+  269  rm *.out
+  270  ls -lt
+  271  rm aaa.txt 
+  272  ls -lt
+  273  cd ..
+  274  pwd
+  275  ls -lt
+  276  ls -lta
+  277  git config --global user.email Tatjana.Solovjova@rtu.lv
+  278  git add .
+  279  git commit -m "20200929_14_00"
+  280  history 
+  281  history > history_20200929.txt
