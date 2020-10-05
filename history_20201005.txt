@@ -1,0 +1,171 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  pwd
+    4  ls lt
+    5  pwd
+    6  ls -lt
+    7  cd EDIBO/
+    8  ls -lt
+    9  cd GCC/
+   10  ls -lt
+   11  cat HelloWorld.c 
+   12  ls -lt
+   13  gcc code1.c 
+   14  echo $?
+   15  ls -lt
+   16  gcc code2.c 
+   17  ls -lt
+   18  cd
+   19  pwd
+   20  git clone https://github.com/EdijsG/RTR-105 RTR105
+   21  ls -lt
+   22  git clone https://github.com/EdijsG/RTR-105
+   23  ls -lt
+   24  cd EDIBO/
+   25  cd GCC/
+   26  ls -lt
+   27  gcc code1.c 
+   28  ls -lt
+   29  gcc code2.c 
+   30  ls -lt
+   31  gcc code1.c -o code1.out
+   32  ls -lt
+   33  gcc code2.c -o code2.out
+   34  ls -lt
+   35  mv a.out a_old.out
+   36  ls -lt
+   37  cat code1.c
+   38  cat code2.c
+   39  cat code1.c
+   40  gcc code1.c
+   41  ls -lt
+   42  nano code1.c 
+   43  cat code1.c 
+   44  nano code1.c 
+   45  gcc code1.c
+   46  ls -lt
+   47  a.out
+   48  echo $PATH
+   49  pwd
+   50  a.out
+   51  pwd
+   52  ./a.out 
+   53  pwd
+   54  ls -lt
+   55  ./a.out 
+   56  echo $?
+   57  cat code1.c
+   58*  code1.c
+   59  cat code1.c
+   60  gcc code1.c 
+   61  ls -lt
+   62  gcc code1.c 
+   63  echo $?
+   64  ls -lt
+   65  nano code1.c 
+   66  cat code1.c 
+   67  gcc code1.c 
+   68  echo $?
+   69  ls -lt
+   70  nano code1.c 
+   71  cat code1.c 
+   72  gcc code1.c 
+   73  echo $?
+   74  ls -lt
+   75  nano code1.c 
+   76  ls -lt
+   77  ./code1.out 
+   78  /home/user/EDIBO/GCC/code1.out 
+   79  ~/EDIBO/GCC/code1.out 
+   80  code1.out 
+   81  pwd
+   82  cat HelloWorld.c 
+   83  cat code1.c 
+   84  gcc code1.c 
+   85  ls -lt
+   86  cat code1.c 
+   87  nano code1.c 
+   88  gcc code1.c 
+   89  ls -lt
+   90  ./a.out 
+   91  echo $?
+   92*   code3.c
+   93  nano code3.c 
+   94  gcc code3.c 
+   95  ls -lt
+   96  ./a.out 
+   97  echo $?
+   98  nano code3.c 
+   99  ls -lt
+  100  gcc code3.c 
+  101  ls -lt
+  102  ./a.out 
+  103  echo $?
+  104  cat code3.c 
+  105  nano code3.c 
+  106  gcc code3.c 
+  107  ./a.out 
+  108  echo $?
+  109  cat code1.c 
+  110  cat code3.c 
+  111  nano code3.c 
+  112  gcc code3.c 
+  113  ls -lt
+  114  nano code3.c 
+  115  gcc code3.c 
+  116  ls -lt
+  117  ./a.out 
+  118  echo $?
+  119  cp code3.c code4.c
+  120  nano code4.c
+  121  cat code4.c 
+  122  gcc code4.c 
+  123  ls -lt
+  124  ./a.out 
+  125  echo $?
+  126  ./a.out 
+  127  echo $?
+  128  nano HelloWorld_.c 
+  129  gcc HelloWorld_.c -o HelloWorld
+  130  nano HelloWorld_.c 
+  131  gcc HelloWorld_.c -o HelloWorld
+  132  nano HelloWorld_.c 
+  133  gcc HelloWorld_.c -o HelloWorld
+  134  ls -lt
+  135  ./HelloWorld 
+  136  cat HelloWorld_.c 
+  137  gcc HelloWorld_.c -o HelloWorld
+  138  ./HelloWorld 
+  139  gribu uzrakstīt tekstu
+  140  echo "gribu uzrakstīt tekstu"
+  141  nano HelloWorld_.c 
+  142  cat HelloWorld_.c 
+  143  gcc HelloWorld_.c -o HelloWorld
+  144  echo $?
+  145  nano HelloWorld_.c 
+  146  cat HelloWorld_.c 
+  147  gcc HelloWorld_.c -o HelloWorld
+  148  ls -lt
+  149  ./HelloWorld 
+  150  echo $?
+  151  nano HelloWorld_.c 
+  152  cat HelloWorld_.c 
+  153  gcc HelloWorld_.c -o HelloWorld
+  154  ./HelloWorld 
+  155  nano HelloWorld_.c 
+  156  cp HelloWorld_.c  printf_trainig1.c
+  157  nano  printf_trainig1.c
+  158  cat  printf_trainig1.c
+  159  nano  printf_trainig1.c
+  160  gcc  printf_trainig1.c
+  161  ./a.out 
+  162  ls -lt
+  163  rm *.out
+  164  ls -lt
+  165  rm HelloWorld
+  166  ls -lt
+  167  cd ../..
+  168  cd EDIBO/
+  169  pwd
+  170  history 
+  171  history > history_20201005.txt
